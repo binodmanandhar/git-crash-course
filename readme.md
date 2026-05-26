@@ -2,7 +2,8 @@
 
 #### to uncommit the commit but logs
 
-```git revert <id>
+```
+git revert <id>
 
 ```
 
