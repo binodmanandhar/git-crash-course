@@ -68,10 +68,25 @@ git checkout new-branch
 git merge main
 ```
 
-#### After creating NEW BRANCh
+---
+
+#### After creating NEW BRANCH
 
 ```
 git add .
 git commit -m "message"
 git push origin <branch-name>    //for first time then we can use git push
 ```
+
+---
+
+# GITHUB ACTIONS:
+
+- Workflows
+- Jobs
+- Steps
+
+- Workflow 1
+  - Job1
+    - Step 1
+    - step 2
