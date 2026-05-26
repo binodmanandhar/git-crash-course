@@ -97,4 +97,4 @@ git push origin <branch-name>    //for first time then we can use git push
 
 ---
 
-#### First github action (link)[https://github.com/binodmanandhar/gh-first-action/blob/main/.github/workflows/first-action.yml]
+#### First github action [link](https://github.com/binodmanandhar/gh-first-action/blob/main/.github/workflows/first-action.yml)
