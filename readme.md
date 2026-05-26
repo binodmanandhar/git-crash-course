@@ -88,9 +88,9 @@ git push origin <branch-name>    //for first time then we can use git push
 
 #### FLOW
 
-- Workflow 1
-  - Job 1
-    - Step 1
+- Workflow 1 (Attached to a GitHub repository, contain one or more Jobs, Triggered upon Events)
+  - Job 1 ( Define a Runner - execution environment )
+    - Step 1 ( Execure a shell script or an Action, Can use customs or third-party actions)
     - step 2
   - Job 2
     - Step 1
