@@ -1,6 +1,8 @@
 # GIT COMMANDS
 
-```git revert <id>       // to uncommit the commit but logs
+#### to uncommit the commit but logs
+
+```git revert <id>
 
 ```
 
