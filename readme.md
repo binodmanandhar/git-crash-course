@@ -61,9 +61,17 @@ git merge FEAT/animation
 
 #### Suppose you are new branch and there is new commit in MAIN branch.
 
-##### To pull changes into new branch
+##### To pull changes into NEW BRANCH from MAIN BRANCH
 
 ```
 git checkout new-branch
 git merge main
+```
+
+#### After creating NEW BRANCh
+
+```
+git add .
+git commit -m "message"
+git push origin <branch-name>    //for first time then we can use git push
 ```
