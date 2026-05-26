@@ -1,13 +1,23 @@
 # GIT COMMANDS
 
-#### to uncommit the commit but logs
+```
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin <repo-url>
+git push -u origin main
+```
+
+#### to uncommit the commit but the revert is logs
 
 ```
 git revert <id>
 
 ```
 
-Quick cheat sheet
+#### Quick cheat sheet
+
+```
 i → enter insert mode (start typing)
 
 Esc → leave insert mode
@@ -15,34 +25,45 @@ Esc → leave insert mode
 :wq → save and quit
 
 :q! → quit without saving
+```
 
+#### Git RESET
+
+```
 git reset --hard <id>
 eg: git reset --hard 6b7c4d5
+```
 
 Be careful. If there are C1, C2, C3, C4, C5 commit.
 
 if you reset to C2 log, then C3, C4, C5 will be deleted and cannot be recovered.
 
-CREATE NEW BRANCH
+#### CREATE NEW BRANCH
+
+```
 git checkout -b <branch-name>
 eg: git checkout -b FEAT/redirection
+```
 
-TO DELETE BRANCH
+#### TO DELETE BRANCH
+
+```
 git checkout main
 git branch -D FEAT/redirection
+```
 
-MERGE NEW BRANCH CHANGES TO MAIN BRANCH
+#### MERGE NEW BRANCH CHANGES TO MAIN BRANCH
+
+```
 git checkout main
 git merge FEAT/animation
+```
 
-Suppose you are new branch and there is new commit in MAIN branch.
-To pull changes into new branch
+#### Suppose you are new branch and there is new commit in MAIN branch.
 
+##### To pull changes into new branch
+
+```
 git checkout new-branch
 git merge main
-
-CONNECT LOCAL & REMOTE REPOSITORIES
-
-git remote add origin
-git push
-git pull
+```
